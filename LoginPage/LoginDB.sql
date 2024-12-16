@@ -16,11 +16,11 @@ CREATE TABLE login_logs (
 );
 
 INSERT INTO users (username, password) 
-VALUES ('vdhanokar25@gmail.com', '123456');
+VALUES ('abc@gmail.com', '123456');
 
 ALTER TABLE users
 ADD COLUMN name VARCHAR(100) NOT NULL UNIQUE;
 
-Insert into users (name , username, password) values ('vishal','v@gmail.com',2508);
+Insert into users (name , username, password) values ('abc','abc@gmail.com',123);
 
 select * from users;
