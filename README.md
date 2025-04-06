@@ -48,6 +48,7 @@ CREATE TABLE users (
     username VARCHAR(50) NOT NULL UNIQUE,
     password VARCHAR(100) NOT NULL
 );
+#Users table contains id as primary key 
 
 CREATE TABLE login_logs (
     id INT AUTO_INCREMENT PRIMARY KEY,
